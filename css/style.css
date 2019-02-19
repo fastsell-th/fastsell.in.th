@@ -69,6 +69,10 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;
 }
 
+h3{
+  line-height: 40px !important;
+}
+
 ::-webkit-selection {
   color: #fff;
   background: #EA9215;
@@ -503,6 +507,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 7em 0;
   clear: both;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-explore,
   #fh5co-pricing,

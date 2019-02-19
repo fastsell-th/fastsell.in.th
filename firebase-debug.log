@@ -1,0 +1,28 @@
+[debug] [2019-02-19T06:52:32.739Z] ----------------------------------------------------------------------
+[debug] [2019-02-19T06:52:32.750Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2019-02-19T06:52:32.751Z] CLI Version:   6.1.1
+[debug] [2019-02-19T06:52:32.751Z] Platform:      darwin
+[debug] [2019-02-19T06:52:32.751Z] Node Version:  v10.14.1
+[debug] [2019-02-19T06:52:32.767Z] Time:          Tue Feb 19 2019 13:52:32 GMT+0700 (Indochina Time)
+[debug] [2019-02-19T06:52:32.768Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-19T06:52:32.806Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-19T06:52:32.806Z] > authorizing via signed-in user
+[debug] [2019-02-19T06:52:32.807Z] [iam] checking project fastsell-in-th for permissions ["firebase.projects.get"]
+[debug] [2019-02-19T06:52:32.809Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-19T06:52:32.809Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-19T06:52:33.474Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-19T06:52:33.496Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fastsell-in-th:testIamPermissions  
+
+[debug] [2019-02-19T06:52:35.030Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-19T06:52:35.032Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fastsell-in-th  
+ 
+[debug] [2019-02-19T06:52:36.883Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Jatupon/Desktop/fastsell.in.th'...
+[info] 
+[debug] [2019-02-19T06:52:36.890Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/201145050792/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-19T06:52:37.668Z] <<< HTTP RESPONSE 200
+[info] ✔  hosting: Local server: http://localhost:5000
