@@ -312,13 +312,13 @@ h3{
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(17, 100, 224, 0.5);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 .fh5co-video:hover .overlay {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(17, 100, 224, 0.5);
 }
 .fh5co-video:hover a {
   -webkit-transform: scale(1.2);
@@ -344,7 +344,7 @@ h3{
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(17, 100, 224, 0.5);
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -978,7 +978,7 @@ h3{
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(17, 100, 224, 0.5);
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
